@@ -5,9 +5,9 @@ import seaborn as sns
 import imageio
 sns.set()
 
-fert = pd.read_csv('gapminder_total_fertility.csv', index_col=0)
-life = pd.read_excel('gapminder_lifeexpectancy.xlsx', index_col=0)
-pop = pd.read_excel('gapminder_population.xlsx', index_col=0)
+fert = pd.read_csv('data_input/gapminder_total_fertility.csv', index_col=0)
+life = pd.read_excel('data_input/gapminder_lifeexpectancy.xlsx', index_col=0)
+pop = pd.read_excel('data_input/gapminder_population.xlsx', index_col=0)
 
 ncol = [int(x) for x in fert.columns]
 fert.set_axis(axis=1, labels=ncol, inplace=True)
