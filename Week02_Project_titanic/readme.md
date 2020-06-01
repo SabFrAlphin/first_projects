@@ -24,17 +24,22 @@ ____________
 ### Example result outputs
 Exploring the data
 
-Survival by Gender on the titanic
+**Survival by Gender on the titanic**
+
 ![Survival by Gender on the titanic](Sur_sex.png)
 
-Survival by port of embarkation and age
+**Survival by port of embarkation and age**
+
 ![Survival by port of embarkation and age](Sur_port_Age.png)
 
-Feature Correlation for model preparation
+**Feature Correlation for model preparation**
+
 ![Feature Correlation for model preparation](feature_corr.png)
 
-Random Forest confusion matrix
+**Random Forest confusion matrix**
+
 ![Random Forest confusion matrix](RF_confusion.png)
 
-Final kaggle score 0.79425
+**Final kaggle score 0.79425**
+
 ![Final kaggle score](Screenshot_kaggle.png)
